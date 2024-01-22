@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: center;/* Center items horizontally */
+    align-items: center;
+    box-shadow: 1px 1px 7px 1px #DCF2F1;
+    transition: box-shadow 0.5s ease-in-out;
+    /* Center items vertically */
+}
+header:hover{
+    box-shadow: 1px 1px 10px 2px #DCF2F1;
+    /*horizontal vertical blur spread radius color
+      horizontal vertical blur spread radius color inset
+      horizontal vertical blur spread radius color, Multiple shadows, etc.*/
+}
+
+.h2Header {
+    height: 100%;
+    /* Take up the full height of it's parent 'the flex container' */
+}
+
+.down-text{
+    color: #7FC7D9;
+}
+
+.logo img {
+    vertical-align: middle;
+    /* aligns the image vertically within its containing element (the span).
+     By setting vertical-align to middle,
+      the image is centered with respect to the surrounding text in the same line. */
+}

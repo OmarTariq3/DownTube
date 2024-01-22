@@ -1,0 +1,31 @@
+@font-face { /*a at-rule in CSS used to define custom font that might not be available to use through out the document */
+  font-family: 'Open Sans';
+  src: url('../assets/Open_Sans/static/OpenSans-Regular.ttf') format('truetype'); /*telling the browser that the font type is truetype=ttf*/
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root { /*defining styles for the root of the document which will apply the styles to everything*/
+  font-family: 'Open Sans', system-ui, sans-serif;
+  line-height: 1.5;
+  background-color: #0F1035;
+  color: #fff;
+}
+
+body{
+  margin: 0;
+}
+
+
+/*
+#0F1035: Background Color 
+#DCF2F1: Dashed Border that will have the Area of functionalities
+#7FC7D9: inside the dashed border "the Area"
+#365486: The buttons will be #DCF2F1,
+ but on hover will be #365486 and with a shadow of #DCF2F1 
+#DCF2F1: The shadow for the header
+#DCF2F1: normal Border for the infomative message area,
+ Good messages a range of Green,
+ Bad messages a range of Red
+
+*/
