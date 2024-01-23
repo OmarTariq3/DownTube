@@ -1,0 +1,29 @@
+/*URL label and field*/
+
+.URL {
+    text-align: center;
+    /* Moved text alignment to the URL container */
+  }
+  
+  .URL>label {
+    display: block;
+   }
+  
+  .URL>input {
+    width: 25em;
+    height: 2.1em;
+    border-radius: 9px;
+    border: 2px dashed #0f103580;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .URL>input:focus {
+    border-color: #7FC7D9;
+  }
+  
+  .URL>input[type="url"] {
+    font-size: 0.9em;
+  }
+  
+  /*URL label and field*/

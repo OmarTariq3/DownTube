@@ -1,4 +1,4 @@
-.dashed-border-area {
+.playGround {
   display: flex;
   flex-direction: column; /* Adjusted to column layout */
   justify-content: center;
@@ -21,98 +21,16 @@ form {
   align-items: center;
 }
 
-/*URL label and field*/
-
-.URL {
-  text-align: center;
-  /* Moved text alignment to the URL container */
-}
-
-.URL>label {
-  display: block;
- }
-
-.URL>input {
-  width: 25em;
-  height: 2.1em;
-  border-radius: 9px;
-  border: 2px dashed #0f103580;
-  outline: none;
-  transition: border-color 0.3s ease-in-out;
-}
-
-.URL>input:focus {
-  border-color: #7FC7D9;
-}
-
-.URL>input[type="url"] {
-  font-size: 0.9em;
-}
-
-/*URL label and field*/
-
-/*File type label and dropdown*/
-.type-dropdown {
-  text-align: center;
-}
-
-.type-dropdown>label {
-  display: block;
-}
-
-.type-dropdown>select {
-  width: 20em;
-  height: 2.5em;
-  border-radius: 9px;
-  border: 2px dashed #0f103580;
-  outline: none;
-  transition: border-color 0.3s ease-in-out;
-}
-
-.type-dropdown>select:focus {
-  border-color: #7FC7D9;
-}
-.type-dropdown>select:hover {
-  cursor:pointer;
-}
-/*File type label and dropdown*/
 
 
-/*quality label and dropdown*/
-.quality-dropdown {
-  text-align: center;
-}
-
-.quality-dropdown>label {
-  display: block;
-}
-
-.quality-dropdown>select {
-  width: 20em;
-  height: 2.5em;
-  border-radius: 9px;
-  border: 2px dashed #0f103580;
-  outline: none;
-  transition: border-color 0.3s ease-in-out;
-}
-
-.quality-dropdown>select:focus {
-  border-color: #7FC7D9;
-}
-.quality-dropdown>select:hover {
-  cursor:pointer;
-}
-
-/*quality label and dropdown*/
-
-/*quality label and dropdown*/
-.submit-button {
+/*Button*/
+.submitButton {
   margin-top: 1em; /* Adjusted margin top */
   display: block;
   font-size: 1em;
 }
 
-.submit-button {
+.submitButton {
   width: 6em;
   height: 2em;
   border-radius: 9px;
@@ -121,23 +39,9 @@ form {
   transition: border-color 0.3s ease-in-out;
 }
 
-.submit-button:hover {
+.submitButton:hover {
   cursor:pointer;
   border-color: #7FC7D9;
 }
+/*Button*/
 
-/*quality label and dropdown*/
-
-
-/*Informative area*/
-.infromative-area{
-    text-align: center;
-    width: 480px;
-    height: 250px;
-    border: 3px dashed #0f10353b;
-    border-radius: 30px;
-    padding: 10px;
-    margin-top: 2em;
-    font-size: 1.1em;
-}
-/*Informative area*/

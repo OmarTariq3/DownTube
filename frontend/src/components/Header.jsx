@@ -8,10 +8,10 @@ export default function Header() {
     return (
         <>
             <header>
-                <h2 className='h2Header'>
+                <h2 className='titleHeader'>
                     <span className='logo'><img src={downloadIcon} alt='Download Icon' /></span>
-                    <span className='down-text'>Down</span>
-                    <span className='tube-text'>tube</span>
+                    <span className='downWord'>Down</span>
+                    <span className='tubeWord'>tube</span>
                 </h2>
             </header>
         </>

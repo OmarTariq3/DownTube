@@ -13,15 +13,12 @@ header:hover{
       horizontal vertical blur spread radius color, Multiple shadows, etc.*/
 }
 
-.h2Header {
+.titleHeader {
     height: 100%;
     /* Take up the full height of it's parent 'the flex container' */
 }
-.h2Header h2{
-    font-weight: 800px !important;
-}
 
-.down-text{
+.downWord{
     color: #7FC7D9;
 }
 

@@ -1,38 +1,26 @@
 import React from 'react';
+import URLField from './URLField';
+import FileTypeDropdown from './FileTypeDropdown';
+import QualityDropdown from './QualityDropdown';
+import Notification from './Notification';
+import { CircularProgressbar } from 'react-circular-progressbar';
 import '../styles/Area.css';
+import 'react-circular-progressbar/dist/styles.css';
+
+
+let percentage = 33;
 
 export default function Area() {
     return (
         <>
-            <div className='dashed-border-area'>
+            <div className='playGround'>
                 <form>
-                    <div className='URL'>
-                        <label>Enter link of Youtube video</label>
-                        <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
-                        {/* value={URL} */}
-                    </div>
-                    <div className='type-dropdown'>
-                        <label for="type">Choose file type</label>
-                        <select name="type" id="type">
-                            <option value="">Please choose an option</option>
-                            <option value="video">Video</option>
-                            <option value="audio">Audio</option>
-                        </select>
-                    </div>
-                    <div className='quality-dropdown'>
-                    <label for="type">Choose quality</label>
-                        <select name="type" id="type">
-                            <option value="">Please choose an option</option>
-                            <option value="video">Very High</option>
-                            <option value="audio">High</option>
-                            <option value="video">Medium</option>
-                            <option value="audio">Low</option>
-                            <option value="audio">Very Low</option>
-                        </select>
-                    </div>
-                    <button className='submit-button' type="submit">Submit</button>
-                    <div className='infromative-area'>Invalid URL, Please Choose file type, Please Choose quality</div>
-                    <div className='loading-bar'></div>
+                <URLField/>
+                <FileTypeDropdown/>
+                <QualityDropdown/>
+                    <button className='submitButton' type="submit">Submit</button>
+                <Notification/>
+                    {/* <CircularProgressbar value={percentage} text={`${percentage}`} /> */}
                 </form>
             </div>
         </>

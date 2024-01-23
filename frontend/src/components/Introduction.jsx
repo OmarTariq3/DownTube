@@ -5,8 +5,8 @@ export default function Introduction() {
     return (
         <>
         <div className='introduction'>
-        <span className='first-intro-line'>Download Youtube media in </span> 
-        <span className='sec-intro-line'>video or audio</span>
+        <span className='firstIntroLine'>Download Youtube media in </span> 
+        <span className='secondIntroLine'>video or audio</span>
         </div>
         </>
     );
