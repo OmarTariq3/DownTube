@@ -2,12 +2,12 @@ header {
     display: flex;
     justify-content: center;/* Center items horizontally */
     align-items: center;
-    box-shadow: 1px 1px 7px 1px #DCF2F1;
+    box-shadow: 1px 1px 7px 1px #0f103580;
     transition: box-shadow 0.5s ease-in-out;
     /* Center items vertically */
 }
 header:hover{
-    box-shadow: 1px 1px 10px 2px #DCF2F1;
+    box-shadow: 1px 1px 10px 2px #0f103580;
     /*horizontal vertical blur spread radius color
       horizontal vertical blur spread radius color inset
       horizontal vertical blur spread radius color, Multiple shadows, etc.*/
@@ -16,6 +16,9 @@ header:hover{
 .h2Header {
     height: 100%;
     /* Take up the full height of it's parent 'the flex container' */
+}
+.h2Header h2{
+    font-weight: 800px !important;
 }
 
 .down-text{

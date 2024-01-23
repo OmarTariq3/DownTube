@@ -1,13 +1,143 @@
-.interaction-container {
-    display: flex;
-    width: 1280px;
-    height: 600px;
-    border: 5px dashed #DCF2F1;
+.dashed-border-area {
+  display: flex;
+  flex-direction: column; /* Adjusted to column layout */
+  justify-content: center;
+  align-items: center;
+  /* Added alignment for vertical centering */
+  width: 700px;
+  height: 600px;
+  border: 5px dashed #0f103580;
+  border-radius: 30px;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+  margin-top: 2em;
+  font-size: 1.1em;
+}
+
+form {
+  display: flex;
+  flex-direction: column; /* Adjusted to column layout */
+  align-items: center;
+}
+
+/*URL label and field*/
+
+.URL {
+  text-align: center;
+  /* Moved text alignment to the URL container */
+}
+
+.URL>label {
+  display: block;
+ }
+
+.URL>input {
+  width: 25em;
+  height: 2.1em;
+  border-radius: 9px;
+  border: 2px dashed #0f103580;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.URL>input:focus {
+  border-color: #7FC7D9;
+}
+
+.URL>input[type="url"] {
+  font-size: 0.9em;
+}
+
+/*URL label and field*/
+
+/*File type label and dropdown*/
+.type-dropdown {
+  text-align: center;
+}
+
+.type-dropdown>label {
+  display: block;
+}
+
+.type-dropdown>select {
+  width: 20em;
+  height: 2.5em;
+  border-radius: 9px;
+  border: 2px dashed #0f103580;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.type-dropdown>select:focus {
+  border-color: #7FC7D9;
+}
+.type-dropdown>select:hover {
+  cursor:pointer;
+}
+/*File type label and dropdown*/
+
+
+/*quality label and dropdown*/
+.quality-dropdown {
+  text-align: center;
+}
+
+.quality-dropdown>label {
+  display: block;
+}
+
+.quality-dropdown>select {
+  width: 20em;
+  height: 2.5em;
+  border-radius: 9px;
+  border: 2px dashed #0f103580;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.quality-dropdown>select:focus {
+  border-color: #7FC7D9;
+}
+.quality-dropdown>select:hover {
+  cursor:pointer;
+}
+
+/*quality label and dropdown*/
+
+/*quality label and dropdown*/
+.submit-button {
+  margin-top: 1em; /* Adjusted margin top */
+  display: block;
+  font-size: 1em;
+}
+
+.submit-button {
+  width: 6em;
+  height: 2em;
+  border-radius: 9px;
+  border: 2px dashed #0f103580;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.submit-button:hover {
+  cursor:pointer;
+  border-color: #7FC7D9;
+}
+
+/*quality label and dropdown*/
+
+
+/*Informative area*/
+.infromative-area{
+    text-align: center;
+    width: 480px;
+    height: 250px;
+    border: 3px dashed #0f10353b;
     border-radius: 30px;
-    padding: 20px;
-    box-sizing: border-box;
-    position: relative;
-    margin: auto; /* Add margin auto to center horizontally */
+    padding: 10px;
     margin-top: 2em;
-    background-color: #7fc7d9c0;
-  }
+    font-size: 1.1em;
+}
+/*Informative area*/

@@ -8,8 +8,8 @@
 :root { /*defining styles for the root of the document which will apply the styles to everything*/
   font-family: 'Open Sans', system-ui, sans-serif;
   line-height: 1.5;
-  background-color: #0F1035;
-  color: #fff;
+  background-color: #DCF2F1;
+  color: #000000;
 }
 
 body{

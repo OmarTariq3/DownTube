@@ -1,9 +1,6 @@
 import React from 'react';
 import '../styles/Introduction.css';
 
-// Import the image using require
-import downloadIcon from '../assets/images/download-icon.png';
-
 export default function Introduction() {
     return (
         <>
