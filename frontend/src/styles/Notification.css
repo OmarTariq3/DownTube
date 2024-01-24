@@ -7,12 +7,13 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    width: 480px;
-    height: 250px;
+    width: 420px;
+    height: 100px;
     border: 3px dashed #0f10353b;
     border-radius: 30px;
     padding: 10px;
     margin-top: 2em;
-    font-size: 1.1em;
+    font-size: 0.9em;
+    background-color: rgb(186, 252, 252);
 }
 /*Informative area*/

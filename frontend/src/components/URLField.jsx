@@ -5,9 +5,7 @@ export default function URLField() {
     return (
         <>
             <div className='URL'>
-                <label>Enter link of Youtube video</label>
-                <input type="url" name="url" id="url" placeholder="https://example.com" pattern="https://.*" size="30" required />
-                {/* value={URL} */}
+            <input type="url" name="url" placeholder="https://www.youtube.com/" pattern="https://www\.youtube\.com/watch\?v=.+" required />
             </div>
         </>
     );

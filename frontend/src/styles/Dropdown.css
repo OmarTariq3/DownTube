@@ -1,0 +1,28 @@
+.fileTypeDropdown>select,
+.qualityDropdown>select {
+  margin: 0.8em;
+  width: 15em;
+  height: 2em;
+  border-radius: 15px;
+  border: 3px solid #0f103580;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+}
+.fileTypeDropdown>select>option,
+.qualityDropdown>select>option {
+  font-size: 0.8em;
+  font-weight: 500;
+}
+.fileTypeDropdown>select:hover,
+.qualityDropdown>select:hover {
+  cursor: pointer;
+  border-color: #7FC7D9;
+}
+
+.fileTypeDropdown>select:focus,
+.qualityDropdown>select:focus {
+  border-color: #98e9fd;
+}

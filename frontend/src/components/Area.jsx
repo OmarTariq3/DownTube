@@ -19,19 +19,10 @@ export default function Area() {
                 <FileTypeDropdown/>
                 <QualityDropdown/>
                     <button className='submitButton' type="submit">Submit</button>
-                <Notification/>
+                {/* <Notification/> */}
                     {/* <CircularProgressbar value={percentage} text={`${percentage}`} /> */}
                 </form>
             </div>
         </>
     );
 }
-
-//Label
-//URL
-//Label
-//Type dropdown
-//Label
-//Quality dropdown
-//Submit button
-//Informative area

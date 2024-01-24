@@ -2,8 +2,7 @@
   display: flex;
   flex-direction: column; /* Adjusted to column layout */
   justify-content: center;
-  align-items: center;
-  /* Added alignment for vertical centering */
+  align-items: center; /* Added alignment for vertical centering */
   width: 700px;
   height: 600px;
   border: 5px dashed #0f103580;
@@ -11,8 +10,7 @@
   padding: 20px;
   position: relative;
   margin: auto;
-  margin-top: 2em;
-  font-size: 1.1em;
+  margin-top: 1.5em;
 }
 
 form {
@@ -25,20 +23,15 @@ form {
 
 /*Button*/
 .submitButton {
-  margin-top: 1em; /* Adjusted margin top */
-  display: block;
-  font-size: 1em;
-}
-
-.submitButton {
-  width: 6em;
-  height: 2em;
-  border-radius: 9px;
-  border: 2px dashed #0f103580;
+  margin: 0.8em;
+  width: 10em;
+  height: 3em;
+  font-weight: 700;
+  border-radius: 15px;
+  border: 3px solid #0f103580;
   outline: none;
   transition: border-color 0.3s ease-in-out;
 }
-
 .submitButton:hover {
   cursor:pointer;
   border-color: #7FC7D9;
