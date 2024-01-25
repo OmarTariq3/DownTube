@@ -1,18 +1,22 @@
-@font-face { /*a at-rule in CSS used to define custom font that might not be available to use through out the document */
+@font-face {
+  /*a at-rule in CSS used to define custom font that might not be available to use through out the document */
   font-family: 'Open Sans';
-  src: url('../assets/Open_Sans/static/OpenSans-Regular.ttf') format('truetype'); /*telling the browser that the font type is truetype=ttf*/
+  src: url('../assets/Open_Sans/static/OpenSans-Regular.ttf') format('truetype');
+  /*telling the browser that the font type is truetype=ttf*/
   font-weight: normal;
   font-style: normal;
 }
 
-:root { /*defining styles for the root of the document which will apply the styles to everything*/
+:root {
+  /*defining styles for the root of the document which will apply the styles to everything*/
   font-family: 'Open Sans', system-ui, sans-serif;
   line-height: 1.5;
-  background-color: #DCF2F1;
+  background: rgb(15, 16, 53);
+  background: linear-gradient(90deg, rgba(15, 16, 53, 1) 0%, rgba(54, 84, 134, 1) 15%, rgba(134, 202, 219, 1) 75%, rgba(220, 242, 241, 1) 100%);
   color: #000000;
 }
 
-body{
+body {
   margin: 0;
 }
 
