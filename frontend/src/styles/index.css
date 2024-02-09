@@ -10,10 +10,10 @@
 :root {
   /*defining styles for the root of the document which will apply the styles to everything*/
   font-family: 'Open Sans', system-ui, sans-serif;
+  color: white;
   line-height: 1.5;
-  background: rgb(15, 16, 53);
-  background: linear-gradient(90deg, rgba(15, 16, 53, 1) 0%, rgba(54, 84, 134, 1) 15%, rgba(134, 202, 219, 1) 75%, rgba(220, 242, 241, 1) 100%);
-  color: #000000;
+  background: rgb(15, 53, 52);
+  background: linear-gradient(90deg, rgba(15, 53, 52, 1) 0%, rgba(88, 95, 54, 1) 19%, rgba(125, 134, 54, 1) 31%, rgba(134, 202, 219, 1) 75%, rgba(220, 242, 241, 1) 100%);
 }
 
 body {

@@ -20,21 +20,101 @@ form {
 }
 
 
-@keyframes moveUp {
-  0% {transform: translateY(0);}
-  100% {transform: translateY(-100px);}
+/* @keyframes moveUp {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-70px);
+  }
 }
+
 @keyframes moveDown {
-  0% {transform: translateY(-100px);}
-  100% {transform: translateY(0);}
+  0% {
+    transform: translateY(-100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+} */
+
+.componentsDiv {
+  margin-bottom: 0;
 }
-.moveComponentsUp{
+
+.moveComponentsUp {
   animation: moveUp 1s ease-in-out;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
-.moveComponentsDown{
+
+.moveComponentsDown {
   animation: moveDown 1s ease-in-out;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
 }
+
+
+/*Bar*/
+@keyframes EnterSceneProgressBar {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+
+  100% {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+  }
+}
+
+@keyframes ExitSceneProgressBar {
+  0% {
+    width: 90px;
+    height: 90px;
+    opacity: 1;
+  }
+
+  100% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+}
+
+.placingProgressBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 420px;
+  height: 90px;
+  margin-top: 2em;
+}
+
+.progressBar {
+  width: 0px;
+  /* Add 'px' unit */
+  height: 0px;
+  /* Add 'px' unit */
+  opacity: 1;
+  margin: 0;
+  padding: 0;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.progressBar.enter {
+  animation-name: EnterSceneProgressBar;
+}
+
+.progressBar.exit {
+  animation-name: ExitSceneProgressBar;
+}
+
+/* Example usage for entering and exiting */
